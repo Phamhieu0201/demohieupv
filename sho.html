@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="py-5 lg:py-[32px] sticky top-0 z-10 shadow-xl bg-white">
+      <div class="container overflow-hidden lg:justify-between flex lg:flex  items-center">
+        <h1>
+          <a class="block w-130" href="index.html"
+            ><img class="image" src="./images/logo.webp" alt="Logo image"
+          /></a>
+        </h1>
+        <div class="lg:hidden hidden sm:hidden xl:flex w-[500px] ml-10 relative">
+          <input
+            class="md:hidden hidden xl:flex h-10 w-full border border-black rounded-full pl-10 pr-4 pt-2 pb-2"
+            type="text"
+            placeholder="Search..."
+          />
+          <div class="md:hidden xl:flex w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2">
+            <img
+              class="image"
+              src="./images/ico_search.png"
+              alt="Search Icon"
+            />
+          </div>
+        </div>
+        <nav class="lg:flex hidden mx-20">
+          <ul class=" hidden lg:flex lg:ml-50 xl:ml-0  xl:flex xl:items-center gap-10">
+            <li
+              class="relative after:duration-300 after:absolute after:w-full after:scale-0 hover:after:scale-100 after:transition-all after:h-[1.3px] after:bg-black after:left-0 after:bottom-0"
+            >
+              <a href="index.html">Home</a>
+            </li>
+            <li
+              class="relative after:duration-300 after:absolute after:w-full after:scale-0 hover:after:scale-100 after:transition-all after:h-[1.3px] after:bg-black after:left-0 after:bottom-0"
+            >
+              <a href="sho.html">Shop</a>
+            </li>
+            <li
+              class="relative after:duration-300 after:absolute after:w-full after:scale-0 hover:after:scale-100 after:transition-all after:h-[1.3px] after:bg-black after:left-0 after:bottom-0"
+            >
+              <a href="#">Product</a>
+            </li>
+            <li
+              class="relative after:duration-300 after:absolute after:w-full after:scale-0 hover:after:scale-100 after:transition-all after:h-[1.3px] after:bg-black after:left-0 after:bottom-0"
+            >
+              <a href="#">Blog</a>
+            </li>
+            <li
+              class="relative after:duration-300 after:absolute after:w-full after:scale-0 hover:after:scale-100 after:transition-all after:h-[1.3px] after:bg-black after:left-0 after:bottom-0"
+            >
+              <a href="#">Fetured</a>
+            </li>
+          </ul>
+          
+        </nav>
+        <ul class=" grid grid-cols-4  justify-end items-center lg:gap-6 gap-6 ml-auto">
+          <a class="lg:hidden" href="#"><img class="w-5" src="./images/ico_search.png" alt="Search Icon"></a>
+          <li>
+            <a class="block w-5 " href="user.html"
+              ><img class="image" src="./images/ico_user.png" alt="User Icon"
+            /></a>
+          </li>
+          <li>
+            <a class="relative size-5 block w-5" href="#"
+              ><img
+                class="image"
+                src="./images/ico_heart.png"
+                alt="Hear Icon"
+              />
+              <span
+                class="absolute -top-[8px] -right-[8px] bg-black text-white text-xs rounded-full size-[18px] grid place-items-center"
+                >10</span
+              >
+            </a>
+          </li>
+          <li>
+            <a class="relative size-5 block w-5" href="bag.html"
+              ><img class="image" src="./images/ico_bag.png" alt="Bag Icon" />
+              <span
+                class="absolute -top-[8px] -right-[8px] bg-black rounded-full text-white size-[18px] text-xs grid place-items-center"
+                >3</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="relative">
+        <div>
+          <img src="./images/img_product_list_banner.webp" alt="Banner Web" />
+        </div>
+        <div
+          class="absolute text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        >
+          <h2 class="font-bold text-[36px]">Products</h2>
+          <div class="mt-5 flex gap-3 justify-center items-center">
+            <div><a href="index.html">Home /</a></div>
+            <div><a href="#none">Product</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-[48px] lg:grid lg:grid-cols-5">
+        <div class="lg:px-4 lg:py-4">
+          <h2 class="font-semibold text-[18px]">Category</h2>
+          <ul class="mt-4 space-y-3">
+            <li>
+              <a class="text-[14px]" href="#none">Bathroom (6)</a>
+            </li>
+            <li>
+              <a
+                class="text-[14px] text-lineGray-0 hover:text-black duration-300"
+                href="#none"
+                >Chair (7)</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[14px] text-lineGray-0 hover:text-black duration-300"
+                href="#none"
+                >Decor (17)</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[14px] text-lineGray-0 hover:text-black duration-300"
+                href="#none"
+                >Lamp (3)</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[14px] text-lineGray-0 hover:text-black duration-300"
+                href="#none"
+                >Table (9)</a
+              >
+            </li>
+          </ul>
+          <h2 class="font-semibold text-[18px] mt-5">Availability</h2>
+          <ul class="mt-4 space-y-3">
+            <li>
+              <a class="text-[14px]" href="#none">In stock (16)</a>
+            </li>
+            <li>
+              <a
+                class="text-[14px] text-lineGray-0 hover:text-black duration-300"
+                href="#none"
+                >Out of stock (1)</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-span-4 lg:mt-0 mt-6">
+          <div
+            class="border py-2 px-3 border-black inline overflow-hidden rounded-[20px]"
+          >
+            <select class="w-max text-sm" name="" id="country">
+              <option class="text-black" value="1">Price, low to hight</option>
+              <option class="text-black" value="2">Price, hight to low</option>
+              <option class="text-black" value="3">Date, old to new</option>
+              <option class="text-black" value="4">Date, new to old</option>
+              <option class="text-black" value="5">Best selling</option>
+            </select>
+          </div>
+          <div>
+            <ul class="grid lg:grid-cols-3 grid-cols-1  gap-5 mt-[36px]">
+              <li class="relative">
+                <a href="#"
+                  ><img
+                    class="w-full rounded-[20px]"
+                    src="./images/img_product.webp"
+                    alt="Product Image"
+                /></a>
+                <button
+                  class="absolute top-[10px] left-[10px] bg-black text-white rounded-[20px]"
+                >
+                  <a href="#">
+                    <p class="text-[12px] px-[8px] py-[4px] items-center">
+                      Out of stock
+                    </p></a
+                  >
+                </button>
+                <ul class="flex gap-1 mt-5 justify-center">
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_active.png"
+                      alt="Star yellow Icon"
+                    />
+                  </li>
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_gray.png"
+                      alt="Star Gray Icon"
+                    />
+                  </li>
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_gray.png"
+                      alt="Star Gray Icon"
+                    />
+                  </li>
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_gray.png"
+                      alt="Star Gray Icon"
+                    />
+                  </li>
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_gray.png"
+                      alt="Star Gray Icon"
+                    />
+                  </li>
+                </ul>
+                <p class="mt-2 text-[15px] text-center">Egg Dining Table</p>
+                <p class="mt-2 font-bold text-[15px] text-center">$70.00</p>
+              </li>
+              <li>
+                <a href="#none"
+                  ><img
+                    class="rounded-[20px] w-full"
+                    src="./images/img_product2.webp"
+                    alt="Product Web"
+                /></a>
+                <ul class="flex gap-1 mt-5 justify-center">
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_active.png" alt="Star yellow Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                </ul>
+                <p class="mt-2 text-[15px] text-center">Century Starburst Clock</p>
+                <p class="mt-2 font-bold text-[15px] text-center">$55.00</p>
+              </li>
+              </li>
+              <li>
+                <a href="#none"
+                  ><img
+                    class="rounded-[20px] w-full"
+                    src="./images/img_product3.webp"
+                    alt="Product Web"
+                /></a>
+                  <ul class="flex gap-1 mt-5 justify-center">
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_active.png" alt="Star yellow Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                </ul>
+                <p class="mt-2 text-[15px] text-center">Bouquet Flower Vase</p>
+                <p class="mt-2 font-bold text-[15px] text-center">$59.00
+                  -
+                  $60.00</p>
+              </li>
+              </li>
+              </li>
+              <li class="relative">
+                <a href="#"><img class="w-full rounded-[20px]" src="./images/img_product4.webp" alt="Product4 Image"></a>
+                <button class="absolute top-[10px] left-[10px] bg-red-600 text-white rounded-[20px]">
+                  <a href="#">
+                    <p class="text-[12px] px-[8px] py-[4px] items-center">
+                      -30%
+                    </p></a>
+                </button>
+                <ul class="flex gap-1 mt-5 justify-center">
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_active.png" alt="Star yellow Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                </ul>
+                  <p class="mt-2 text-[15px] text-center">Egg Dining Table</p>
+                  
+                    <div class="flex items-center justify-center font-bold text-15 text-center">
+                      <span class="line-through text-lineGray-0">$59.00 </span> -
+                      <span class="text-red-600">$60.00</span>
+                    </div>
+                    
+              </li>
+              <li class="relative">
+                <a href="#"><img class="w-full rounded-[20px]" src="./images/img_product.webp" alt="Product Image"></a>
+                <button class="absolute top-[10px] left-[10px] bg-black text-white rounded-[20px]">
+                  <a href="#">
+                    <p class="text-[12px] px-[8px] py-[4px] items-center">
+                      Out of stock
+                    </p></a>
+                </button>
+                <ul class="flex gap-1 mt-5 justify-center">
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_active.png" alt="Star yellow Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                </ul>
+                  <p class="mt-2 text-[15px] text-center">Egg Dining Table</p>
+                  <p class="mt-2 font-bold text-[15px] text-center">$70.00</p>
+              </li>
+              <li>
+                <a href="#none"
+                  ><img
+                    class="rounded-[20px] w-full"
+                    src="./images/img_product2.webp"
+                    alt="Product Web"
+                /></a>
+                <ul class="flex gap-1 mt-5 justify-center">
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_active.png" alt="Star yellow Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                </ul>
+                <p class="mt-2 text-[15px] text-center">Century Starburst Clock</p>
+                <p class="mt-2 font-bold text-[15px] text-center">$55.00</p>
+              </li>
+              <li>
+                <a href="#none"
+                  ><img
+                    class="rounded-[20px] w-full"
+                    src="./images/img_product3.webp"
+                    alt="Product Web"
+                /></a>
+                <ul class="flex gap-1 mt-5 justify-center">
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_active.png" alt="Star yellow Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                </ul>
+                <p class="mt-2 text-[15px] text-center">Bouquet Flower Vase</p>
+                <p class="mt-2 font-bold text-[15px] text-center">$59.00
+                  -
+                  $60.00</p>
+              </li>
+              <li class="relative">
+                <a href="#"><img class="w-full rounded-[20px]" src="./images/img_product4.webp" alt="Product4 Image"></a>
+                <button class="absolute top-[10px] left-[10px] bg-red-600 text-white rounded-[20px]">
+                  <a href="#">
+                    <p class="text-[12px] px-[8px] py-[4px] items-center">
+                      -30%
+                    </p></a>
+                </button>
+                <ul class="flex gap-1 mt-5 justify-center">
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_active.png" alt="Star yellow Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                  <li class=""><img class="w-[13px]" src="./images/ico_star_gray.png" alt="Star Gray Icon"></li>
+                </ul>
+                  <p class="mt-2 text-[15px] text-center">Egg Dining Table</p>
+                  
+                    <div class="flex items-center justify-center font-bold text-15 text-center">
+                      <span class="line-through text-lineGray-0">$59.00 </span> -
+                      <span class="text-red-600">$60.00</span>
+                    </div>
+                    
+              </li>
+              <li class="relative">
+                <a href="#"
+                  ><img
+                    class="w-full rounded-[20px]"
+                    src="./images/img_product.webp"
+                    alt="Product Image"
+                /></a>
+                <button
+                  class="absolute top-[10px] left-[10px] bg-black text-white rounded-[20px]"
+                >
+                  <a href="#">
+                    <p class="text-[12px] px-[8px] py-[4px] items-center">
+                      Out of stock
+                    </p></a
+                  >
+                </button>
+                <ul class="flex gap-1 mt-5 justify-center">
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_active.png"
+                      alt="Star yellow Icon"
+                    />
+                  </li>
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_gray.png"
+                      alt="Star Gray Icon"
+                    />
+                  </li>
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_gray.png"
+                      alt="Star Gray Icon"
+                    />
+                  </li>
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_gray.png"
+                      alt="Star Gray Icon"
+                    />
+                  </li>
+                  <li class="">
+                    <img
+                      class="w-[13px]"
+                      src="./images/ico_star_gray.png"
+                      alt="Star Gray Icon"
+                    />
+                  </li>
+                </ul>
+                <p class="mt-2 text-[15px] text-center">Egg Dining Table</p>
+                <p class="mt-2 font-bold text-[15px] text-center">$70.00</p>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-10"> 
+            <ul class="flex items-center justify-center gap-2">
+              <li class="border border-lineGray-0 rounded-full grid place-items-center size-10"><button class="size-4"><img src="./images/ico_chevron_left.png" alt="Chevron Icon"></button></li>
+              <li><a class="border border-lineGray-0 bg-black text-white rounded-full grid place-items-center size-10" href="#none">1</a></li>
+              <li><a class="border border-lineGray-0 rounded-full grid place-items-center size-10 hover:bg-black hover:text-white duration-300" href="#none">2</a></li>
+              <li><a class="border border-lineGray-0 rounded-full grid place-items-center size-10 hover:bg-black hover:text-white duration-300" href="#none">3</a></li>
+              <li><a class="border border-lineGray-0 rounded-full grid place-items-center size-10 hover:bg-black hover:text-white duration-300" href="#none">4</a></li>
+              <li class="border border-lineGray-0 rounded-full grid place-items-center size-10"><button class="size-4"><img src="./images/ico_chevron_right.png" alt="Chevron Icon"></button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="py-[48px]">
+      <div class="container">
+        <div class="grid md:grid-cols-4 gap-8 md:gap-24 ">
+          <ul class="">
+            <li class="font-bold text-[18px]">About Us</li>
+            <li class="mt-[16px] hover:underline">Our Shops</li>
+            <li class="mt-[8px] hover:underline">Contact</li>
+            <li class="mt-[8px] hover:underline">Artists</li>
+            <li class="mt-[8px] hover:underline">Local Giving</li>
+            <li class="mt-[8px] hover:underline">Press</li>
+          </ul>
+          <ul class="md:col-span-2 md:flex md:justify-center md:flex-col">
+            <li class="font-semibold text-[20px] leading-7">
+              Sign Up For Our Newsletter To Receive Notifications And Other Promotions
+            </li>
+            <li class="overflow-hidden mt-[32px] border border-black rounded-full flex">
+              <input class="focus:outline-none w-full px-4 py-4" type="email" placeholder="Email address...">
+              <button class="py-2 px-6 bg-black text-white rounded-r-full"><a href="#">Subscribe</a></button>
+            </input>
+            </li>
+          </ul>
+          <ul class="justify-end">
+            <li class="font-bold text-[18px]">Customer Services</li>
+            <li class="mt-[16px] hover:underline">FAQs</li>
+            <li class="mt-[8px] hover:underline">Store Locator</li>
+            <li class="mt-[8px] hover:underline">Returns</li>
+            <li class="mt-[8px] hover:underline">Shipping Information</li>
+            <li class="mt-[8px] hover:underline">Wholesale</li>
+          </ul>
+        </div>
+        <div class="text-center mt-[48px]">
+          <p>Copyright © 2024. All Right Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

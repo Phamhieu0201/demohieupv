@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="shadow-xl">
+        <div class="container flex lg:flex py-8 items-center justify-between">
+          <div>
+            <h2 class="mr-5">
+              <a href="index.html"
+                ><img
+                  class="max-w-[130px]"
+                  src="./images/logo.webp"
+                  alt="Logo Web"
+              /></a>
+            </h2>
+          </div>
+          <div
+            class="relative  border-2 border-black xl:flex hidden  rounded-full overflow-hidden items-center mr-[80px]"
+          >
+            <input
+              class="py-2 w-[500px] pr-4 pl-10 "
+              type="email"
+              placeholder="Search..."
+            />
+            <div class="absolute top-0 left-3 translate-y-2 " >
+              <img
+                class="size-5"
+                src="./images/ico_search.png"
+                alt="Search Icon"
+              />
+            </div>
+          </div>
+          <ul class=" lg:flex hidden  mr-[112px] lg:gap-10">
+            <li
+              class="relative after:absolute after:w-full after:h-[1.9px] after:bg-black after:left-0 after:bottom-0 after:transition-all after:scale-x-0 hover:after:scale-100 after:duration-300"
+            >
+              <a href="index.html">Home</a>
+            </li>
+            <li
+              class="relative after:absolute after:bg-black after:w-full after:h-[1.9px] after:left-0 after:bottom-0 after:transition-all after:scale-x-0 hover:after:scale-100 after:duration-300"
+            >
+              <a href="sho.html">Shop</a>
+            </li>
+            <li
+              class="relative after:absolute after:bg-black after:w-full after:h-[1.9px] after:left-0 after:bottom-0 after:transition-all after:scale-x-0 hover:after:scale-x-100 after:duration-300"
+            >
+              <a href="#none">Product</a>
+            </li>
+            <li
+              class="relative after:absolute after:w-full after:h-[1.9px] after:bg-black after:left-0 after:bottom-0 after:transition-all after:scale-x-0 hover:after:scale-100 after:duration-300"
+            >
+              <a href="#none">Blog</a>
+            </li>
+            <li
+              class="relative after:absolute after:w-full after:h-[1.9px] after:bg-black after:left-0 after:bottom-0 after:transition-all after:scale-x-0 hover:after:scale-100 after:duration-300"
+            >
+              <a href="#none">Fetured</a>
+            </li>
+          </ul>
+          <ul class="flex gap-6">
+            <li>
+              <a class="size-5 block w-5" href="#none"
+                ><img src="./images/ico_user.png" alt="User Icon"
+              /></a>
+            </li>
+            <li class="relative">
+              <a class="size-5 block w-5" href="#none"
+                ><img src="./images/ico_heart.png" alt="Heart Icon"
+              /></a>
+              
+            </li>
+            <li class="relative">
+              <a class="size-5 block w-5" href="bag.html">
+                <img src="./images/ico_bag.png" alt="Bag Icon" />
+              </a>
+           
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <section class="mx-auto">
+            <div class="py-[80px] mx-auto">
+                <h1 class="text-center text-[30px] font-semibold">Account</h1>
+                <div class="container">
+                    <div class="max-w-xl mx-auto">
+                        <h3 class="text-[24px] font-semibold">Sign In</h3>
+                        <form class="mt-5" action="">
+                            <div>
+                                <input class=" border border-lineGray-0 rounded-[20px] w-full text-[14px] px-5 py-5" type="email" placeholder="Email*">
+                                <p class="mt-2 text-[12px] text-red-600 inline-block">Email or password invalid</p>
+                            </div>
+                            <div class="mt-3"> 
+                                <input class="border mt-2 border-lineGray-0 rounded-[20px] w-full text-[14px] px-5 py-5" type="password" placeholder="Password*">
+                                <p class="text-[12px] my-5">Forgot password ?</p>
+                            </div>
+                            <div>
+                                <button class="border bg-black text-white hover:bg-white hover:text-black hover:border-black duration-300 rounded-[20px] w-full text-[14px] px-5 py-5">LOGIN</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[12px]"></section>
+      </main>
+      <footer class="py-[48px]">
+        <div class="container">
+          <div class="grid md:grid-cols-4 gap-8 md:gap-24 ">
+            <ul class="">
+              <li class="font-bold text-[18px]">About Us</li>
+              <li class="mt-[16px] hover:underline">Our Shops</li>
+              <li class="mt-[8px] hover:underline">Contact</li>
+              <li class="mt-[8px] hover:underline">Artists</li>
+              <li class="mt-[8px] hover:underline">Local Giving</li>
+              <li class="mt-[8px] hover:underline">Press</li>
+            </ul>
+            <ul class="md:col-span-2 md:flex md:justify-center md:flex-col">
+              <li class="font-semibold text-[20px] leading-7">
+                Sign Up For Our Newsletter To Receive Notifications And Other Promotions
+              </li>
+              <li class="overflow-hidden mt-[32px] border border-black rounded-full flex">
+                <input class="focus:outline-none w-full px-4 py-4" type="email" placeholder="Email address...">
+                <button class="py-2 px-6 bg-black text-white rounded-r-full"><a href="#">Subscribe</a></button>
+              </input>
+              </li>
+            </ul>
+            <ul class="justify-end">
+              <li class="font-bold text-[18px]">Customer Services</li>
+              <li class="mt-[16px] hover:underline">FAQs</li>
+              <li class="mt-[8px] hover:underline">Store Locator</li>
+              <li class="mt-[8px] hover:underline">Returns</li>
+              <li class="mt-[8px] hover:underline">Shipping Information</li>
+              <li class="mt-[8px] hover:underline">Wholesale</li>
+            </ul>
+          </div>
+          <div class="text-center mt-[48px]">
+            <p>Copyright © 2024. All Right Reserved</p>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
